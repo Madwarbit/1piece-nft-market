@@ -5,7 +5,7 @@ module.exports = {
   },
   trailingslash: true,
   images: {
-    domains: ["daulat-nft-marketplace.infura-ipfs.io"],
+    domains: ["https://www.1piecenft.xyz"],   
     formats: ["image/webp"],
   },
 };
