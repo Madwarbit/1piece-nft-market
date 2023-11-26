@@ -5,13 +5,13 @@ import { useRouter } from "next/router";
 import axios from "axios";
 import { create as ipfsHttpClient } from "ipfs-http-client";
 
-const projectId = process.env.NEXT_PUBLIC_PROJECT_ID;
-const projectSecretKey = process.env.NEXT_PUBLIC_SECRECT_KEY;
+const projectId = "99c9b796cb15c5bf5759";
+const projectSecretKey = "9fe7a8efd3a091d59e169d5c13b2ab0feafd4f62324455882e62df90de20ed7c";
 const auth = `Basic ${Buffer.from(`${projectId}:${projectSecretKey}`).toString(
   "base64"
 )}`;
 
-const subdomain = process.env.NEXT_PUBLIC_SUBDOMAIN;
+const subdomain = "tomato-advanced-turkey-169.mypinata.cloud";
 
 const client = ipfsHttpClient({
   host: "infura-ipfs.io",
