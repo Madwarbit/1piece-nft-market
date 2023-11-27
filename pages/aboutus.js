@@ -51,9 +51,7 @@ const aboutus = () => {
           <div className={Style.aboutus_box_hero_left}>
             <h1>👋 About Us.</h1>
             <p>
-              We’re impartial and independent, and every day we create
-              distinctive, world-class programmes and content which inform,
-              educate and entertain millions of people in the around the world.
+              At 1piece nft marketplace, our vision extends beyond being a mere NFT marketplace; we strive to be a transformative force in the digital realm. We envision a cutting-edge platform where NFT staking isn't just a transaction but a rewarding experience. By participating in NFT staking on our platform, you unlock a realm of incentives — from tokens and exclusive NFTs to exciting airdrops and more. Our commitment to innovation goes further as we pioneer the integration of real-world assets with NFTs. Imagine the fusion of digital and tangible realms, where our exclusive Mad-Rabbitz clothing and shoe line becomes an intrinsic part of the NFT ecosystem. This bold step not only enhances the value of digital ownership but also brings the tangible essence of luxury and style to the world of blockchain. At 1 piece nft marketplace, we are not just shaping the future of NFTs; we are redefining the very concept of ownership, seamlessly blending the digital and physical for an unparalleled and rewarding user experience. Join us as we embark on this groundbreaking journey where NFTs transcend boundaries and redefine the possibilities of the digital frontier.
             </p>
           </div>
           <div className={Style.aboutus_box_hero_right}>
