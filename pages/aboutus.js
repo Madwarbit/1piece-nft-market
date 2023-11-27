@@ -24,7 +24,7 @@ const aboutus = () => {
       images: images.founder3,
     },
     {
-      name: "Mrs.Bilal",
+      name: "Eva Green",
       position: "Marketing Director",
       images: images.founder4,
     },
