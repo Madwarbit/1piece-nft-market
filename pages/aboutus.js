@@ -88,8 +88,7 @@ const aboutus = () => {
         <div className={Style.aboutus_box_title}>
           <h2>🚀 Fast Facts</h2>
           <p>
-            We’re impartial and independent, and every day we create
-            distinctive, world-class programmes and content
+            Some cryptocurrencies have more uses than as a coin...Yes 1piece Token & Mad-Rabbitz token.
           </p>
         </div>
 
