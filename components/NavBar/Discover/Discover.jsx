@@ -12,6 +12,10 @@ const Discover = () => {
       link: "collection",
     },
     {
+      name: "Soul Bound Token",
+      link: "SBT",
+    },
+    {
       name: "Search",
       link: "searchPage",
     },
