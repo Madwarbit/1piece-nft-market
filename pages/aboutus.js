@@ -9,23 +9,23 @@ import images from "../img";
 const aboutus = () => {
   const founderArray = [
     {
-      name: "Niamh O'Shea",
-      position: "Co-founder and Chief Executive",
+      name: "Bilal Gilani",
+      position: "founder & CEO",
       images: images.founder1,
     },
     {
-      name: "Danien Jame",
-      position: "Co-founder and Chief Executive",
+      name: "Profsaz",
+      position: "Block chain dev",
       images: images.founder2,
     },
     {
-      name: "Orla Dwyer",
-      position: "Co-founder, Chairman",
+      name: "Luffy",
+      position: "Community manager",
       images: images.founder3,
     },
     {
-      name: "Dara Frazier",
-      position: "Co-Founder, Chief Strategy Officer",
+      name: "Mrs.Bilal",
+      position: "Marketing Director",
       images: images.founder4,
     },
   ];
