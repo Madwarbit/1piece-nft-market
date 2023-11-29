@@ -11,7 +11,7 @@ const auth = `Basic ${Buffer.from(`${projectId}:${projectSecretKey}`).toString(
   "base64"
 )}`;
 
-const subdomain = "tomato-advanced-turkey-169.mypinata.cloud";
+const subdomain = "YOUR URL OF IPFS HERE";
 
 const client = ipfsHttpClient({
   host: "infura-ipfs.io",
