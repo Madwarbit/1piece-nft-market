@@ -5,8 +5,8 @@ import { useRouter } from "next/router";
 import axios from "axios";
 import { create as ipfsHttpClient } from "ipfs-http-client";
 
-const projectId = "99c9b796cb15c5bf5759";
-const projectSecretKey = "9fe7a8efd3a091d59e169d5c13b2ab0feafd4f62324455882e62df90de20ed7c";
+const projectId = "00000000000000000";
+const projectSecretKey = "000000000000000000000000000000000";
 const auth = `Basic ${Buffer.from(`${projectId}:${projectSecretKey}`).toString(
   "base64"
 )}`;
@@ -186,7 +186,7 @@ export const NFTMarketplaceProvider = ({ children }) => {
     try {
       const provider = new ethers.providers.JsonRpcProvider(
         //--process.env.NEXT_PUBLIC_POLYGON_MUMBAI_RPC
-        "https://polygon-mumbai.g.alchemy.com/v2/7zNpSwfaOC6XqkamL9_UX_zxA_cURtbC"
+        "https://your network rpc url here"
       );
 
       const contract = fetchContract(provider);
